@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 
-const{home}=require("./controllers/pageCtrl")
+const{home}=require("./controller/pageCtrl")
 
 app.get("/", home)
 
