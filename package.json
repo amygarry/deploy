@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2"
-  }
+  },
+  "name": "deployment",
+  "version": "1.0.0",
+  "main": "sever/server.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amygarry/deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amygarry/deploy/issues"
+  },
+  "homepage": "https://github.com/amygarry/deploy#readme",
+  "description": ""
 }
